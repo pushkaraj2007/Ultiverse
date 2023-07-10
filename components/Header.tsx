@@ -1,6 +1,8 @@
-import { NextPage } from "next";
+interface Props {
+    imgName: string;
+}
 
-const Header: NextPage = () => {
+const Header = ({ imgName }: Props) => {
     return (
         <div className="absolute top-[29px] left-[calc(50%_-_922px)] w-[1843.19px] h-[69.91px] overflow-hidden text-smi text-white">
             <div className="absolute top-[0px] left-[0px] box-border w-[884px] overflow-hidden flex flex-row py-0 pr-[848px] pl-0 items-start justify-start border-[0.5px] border-solid border-gray-300">
